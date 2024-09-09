@@ -35,7 +35,7 @@ export default function Card() {
       ) : (
         <>
           <p className="id">ADVICE #{data?.slip.id}</p>
-          <p className="advice">"{data?.slip.advice}"</p>
+          <p className="advice">“{data?.slip.advice}”</p>
         </>
       )}
 
